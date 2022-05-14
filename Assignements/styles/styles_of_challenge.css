@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: pink;
+    padding: 0%;
+}
+
+#first_paragraph {
+    font-size: small;
+}
+.jobs{
+    color: white;
+}
+h1:hover{
+    background-color: pink;
+    color: black;
+}
+
+img {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+}
+
+
+q{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
