@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Pacifico&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
     background-color: #ececeb;
+    font-family: "comfortaa", Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 header{
     background-color: #4d300b8e;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 nav a{
     text-align: center;
     color: rgba(19, 19, 97, 0.897);
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: white;
@@ -20,6 +34,10 @@ nav a:hover{
     background-color: rgba(11, 11, 241, 0.781);
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -28,9 +46,25 @@ nav a:hover{
 }
 .msg{
     background-color: gray;
+    line-height: 1.5em;
+    padding: 35px;
 }
 /* i didn't touch the h1 or h4  and p elements because i wanted them to dwell in  black colors */
 
+.home-title {
+    font-family: "Pacifico", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg h2 {
+    font-family: "Pacifico", Helvetica, sans-serif;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -51,6 +85,8 @@ main section{
 
 footer{
     background-color: #4d300b8e;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -63,11 +99,19 @@ footer a:hover{
 }
 
 footer h3{
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 .logo, .icon{
 width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -76,4 +120,16 @@ width: 80px;
 
 a:hover{
     text-decoration: underline;
+}
+
+.rivers-card, .camping-card, .rapids-card  {
+   margin: 200px 0; 
+} 
+
+.card-img {
+    border: 10px solid #d9c2a3 ;
+}
+
+main section img {
+    box-sizing: border-box;
 }
