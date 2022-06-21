@@ -207,6 +207,73 @@ a:hover{
     transform: scale(1.1);
 }
 
+#river-start {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: -100px;
+}
+
+#river-start img {
+    grid-column: 1/8;
+    grid-row: 1/4;
+    width: 100%;
+    z-index: -1;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+#river-start div {
+    grid-column: 1/8;
+    grid-row: 1/4;
+    justify-items: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+}
+
+#rivers_section {
+    padding: 35px 50px;
+}
+
+.river_div {
+    background-color: #4d300b8e;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px #363831;
+}
+
+.river_div img {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    height: 90%;
+    width: 90%;
+    margin: 100px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #363831;
+    border-radius: 10px;
+}
+
+.river_div aside {
+    grid-column: 4/6;
+    grid-row: 1/5;
+    height: 90%;
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.river_div h3 {
+    grid-column: 1/4;
+    grid-row: 3/5;
+    height: 90%;
+    width: 90%;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
