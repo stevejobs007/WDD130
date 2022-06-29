@@ -175,3 +175,8 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.personnal_wireframe {
+  height: 600px;
+  width: 300px;
+}
