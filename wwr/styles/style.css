@@ -158,6 +158,10 @@ main section img {
     padding-bottom: 15px;
 }
 
+form {
+    grid-column: 3/9;
+}
+
 footer{
     background-color: #4d300b8e;
     padding: 25px 50px;
