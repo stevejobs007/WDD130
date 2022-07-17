@@ -181,3 +181,25 @@ button {
     border-radius: 7px;
     margin-left: 2.5em;
 }
+
+#phy {
+    background-color: gray;
+    display: flex;
+    margin: 10px;
+    padding: 2em;
+}
+
+#Aboutus h3, #Aboutus p{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#Aboutus h1{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 5em;
+}
+
+#Contactus{
+    padding-left: 5em;
+}
