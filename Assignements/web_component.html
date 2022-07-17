@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Summer trip</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Pacifico&display=swap');
+
+        body {
+            font-family: "comfortaa", Helvetica, sans-serif;
+            font-size: 22px;
+            margin: 0;
+            background-color: rgb(145, 119, 80);
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .subnav {
+            float: left;
+            overflow: hidden;
+        }
+
+        .subnav .subnavbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .subnav:hover .subnavbtn {
+            background-color: rgb(63, 66, 57);
+        }
+
+        .subnav-content {
+            display: none;
+            position: absolute;
+            left: 0;
+            background-color: rgb(63, 66, 57);
+            width: 100%;
+            z-index: 1;
+        }
+
+        .subnav-content a {
+            float: left;
+            color: white;
+            text-decoration: none;
+        }
+
+        .subnav-content a:hover {
+            background-color: #eee;
+            color: black;
+        }
+
+        .subnav:hover .subnav-content {
+            display: block;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        #First_element {
+            grid-column: 1/4;
+            grid-row: 1/3;
+        }
+
+        #second_element {
+            grid-column: 1/4;
+            grid-row: 2/3;
+            justify-self: center;
+            align-self: center;
+            padding: 0 16px;
+            color: rgb(138, 230, 63);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <div class="subnav">
+            <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#company">Company</a>
+                <a href="#team">Team</a>
+                <a href="#careers">Careers</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#bring">Bring</a>
+                <a href="#deliver">Deliver</a>
+                <a href="#package">Package</a>
+                <a href="#express">Express</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#link1">Link 1</a>
+                <a href="#link2">Link 2</a>
+                <a href="#link3">Link 3</a>
+                <a href="#link4">Link 4</a>
+            </div>
+        </div>
+        <a href="#contact">Contact</a>
+    </div>
+    <main>
+        <div id="First_element">
+            <img src="images\SummerVacation.jpg" alt="summer time" style="width: 100%;">
+        </div>
+        <div id="second_element">
+            <h2 style="text-align:center;">Brand new adventure</h2>
+            <p>We'll bring you discover new area and change your perspective of the
+                world
+            </p>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
