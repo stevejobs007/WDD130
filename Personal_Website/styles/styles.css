@@ -113,7 +113,7 @@ footer a:hover {
     color: black;
 }
 
-.logo {
+#logo {
     width: 200px;
     height: 200px;
 }
@@ -130,6 +130,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -189,17 +190,25 @@ button {
     padding: 2em;
 }
 
-#Aboutus h3, #Aboutus p{
+#Aboutus #phi h3, #Aboutus p{
     width: 75%;
     margin: 0 auto;
+    color: #73c9f7;
 }
 
 #Aboutus h1{
     width: 50%;
     margin: 0 auto;
-    padding-left: 5em;
+    padding: 50px;
+    text-align: center;
 }
 
 #Contactus{
-    padding-left: 5em;
+    padding: 50px;
+    text-align: center;
+}
+
+#tutor_para {
+    padding: 50px;
+    text-align: center;
 }
